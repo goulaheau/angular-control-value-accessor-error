@@ -1,0 +1,5 @@
+<input [ngModel]="value()" (ngModelChange)="onNgModelChange($event)" (blur)="onBlur()" />
+
+<div>
+  valid : {{ ngControl.valid }}
+</div>
